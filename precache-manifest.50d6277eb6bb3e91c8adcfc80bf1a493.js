@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb098779ca38544165a70ef538762433",
+    "revision": "b28b2285c3ae35d4337d158b3582404b",
     "url": "/phototorecipeapp/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/phototorecipeapp/static/css/2.eb45ad44.chunk.css"
   },
   {
-    "revision": "3356daa00f4dcc616c9d",
-    "url": "/phototorecipeapp/static/css/main.7ce24492.chunk.css"
+    "revision": "f50b936aed7a35b8d23e",
+    "url": "/phototorecipeapp/static/css/main.11ae8208.chunk.css"
   },
   {
     "revision": "d6438ec693083a13b8d7",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/phototorecipeapp/static/js/2.653993a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3356daa00f4dcc616c9d",
-    "url": "/phototorecipeapp/static/js/main.7ee4dba3.chunk.js"
+    "revision": "f50b936aed7a35b8d23e",
+    "url": "/phototorecipeapp/static/js/main.af0369e3.chunk.js"
   },
   {
     "revision": "39d6b80086a8ac2e2344",
