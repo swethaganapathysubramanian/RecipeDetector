@@ -84,14 +84,16 @@ class App extends Component {
       return ingredient.name;
     })
     //const ingg = revingg.reverse();
-    if (ingg.length > 5) {
-      console.log(ingg[0]+ingg[1]);
-    }
+    if (ingg.length > 3) {
+      this.getRecipes(ingg[0]+" "+ingg[1]+" "+ingg[2]);
+    }else{
     this.getRecipes(ingg);
     console.log(ingg);
+    }
   }
 
   getRecipes = async (ingg) => {
+    console.log(ingg)
     const response = await fetch(`https://api.edamam.com/search?q=${ingg}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=9`);
     const data = await response.json();
     console.log(data.hits);
