@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/phototorecipeapp/static/css/main.11ae8208.chunk.css",
-    "main.js": "/phototorecipeapp/static/js/main.af0369e3.chunk.js",
-    "main.js.map": "/phototorecipeapp/static/js/main.af0369e3.chunk.js.map",
+    "main.js": "/phototorecipeapp/static/js/main.bbaeb0d2.chunk.js",
+    "main.js.map": "/phototorecipeapp/static/js/main.bbaeb0d2.chunk.js.map",
     "runtime-main.js": "/phototorecipeapp/static/js/runtime-main.c5f1dbbd.js",
     "runtime-main.js.map": "/phototorecipeapp/static/js/runtime-main.c5f1dbbd.js.map",
     "static/css/2.eb45ad44.chunk.css": "/phototorecipeapp/static/css/2.eb45ad44.chunk.css",
     "static/js/2.653993a6.chunk.js": "/phototorecipeapp/static/js/2.653993a6.chunk.js",
     "static/js/2.653993a6.chunk.js.map": "/phototorecipeapp/static/js/2.653993a6.chunk.js.map",
     "index.html": "/phototorecipeapp/index.html",
-    "precache-manifest.50d6277eb6bb3e91c8adcfc80bf1a493.js": "/phototorecipeapp/precache-manifest.50d6277eb6bb3e91c8adcfc80bf1a493.js",
+    "precache-manifest.c377d7b987d6d3f57c77766580c410c7.js": "/phototorecipeapp/precache-manifest.c377d7b987d6d3f57c77766580c410c7.js",
     "service-worker.js": "/phototorecipeapp/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/phototorecipeapp/static/css/2.eb45ad44.chunk.css.map",
     "static/css/main.11ae8208.chunk.css.map": "/phototorecipeapp/static/css/main.11ae8208.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.653993a6.chunk.js",
     "static/css/main.11ae8208.chunk.css",
-    "static/js/main.af0369e3.chunk.js"
+    "static/js/main.bbaeb0d2.chunk.js"
   ]
 }
