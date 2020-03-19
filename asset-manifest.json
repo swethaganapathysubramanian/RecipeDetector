@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/phototorecipeapp/static/css/main.7ce24492.chunk.css",
+    "main.js": "/phototorecipeapp/static/js/main.87ebae8d.chunk.js",
+    "main.js.map": "/phototorecipeapp/static/js/main.87ebae8d.chunk.js.map",
+    "runtime-main.js": "/phototorecipeapp/static/js/runtime-main.c5f1dbbd.js",
+    "runtime-main.js.map": "/phototorecipeapp/static/js/runtime-main.c5f1dbbd.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/phototorecipeapp/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.653993a6.chunk.js": "/phototorecipeapp/static/js/2.653993a6.chunk.js",
+    "static/js/2.653993a6.chunk.js.map": "/phototorecipeapp/static/js/2.653993a6.chunk.js.map",
+    "index.html": "/phototorecipeapp/index.html",
+    "precache-manifest.317976a49e24b0457d5758595b298250.js": "/phototorecipeapp/precache-manifest.317976a49e24b0457d5758595b298250.js",
+    "service-worker.js": "/phototorecipeapp/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/phototorecipeapp/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.7ce24492.chunk.css.map": "/phototorecipeapp/static/css/main.7ce24492.chunk.css.map",
+    "static/js/2.653993a6.chunk.js.LICENSE.txt": "/phototorecipeapp/static/js/2.653993a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c5f1dbbd.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.653993a6.chunk.js",
+    "static/css/main.7ce24492.chunk.css",
+    "static/js/main.87ebae8d.chunk.js"
+  ]
+}
