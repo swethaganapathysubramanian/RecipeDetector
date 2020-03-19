@@ -72,8 +72,8 @@ class App extends Component {
   calculateIngredients = (data) =>{
       const clarifaiface = data.outputs[0].data.concepts;
       console.log(clarifaiface)   
-    var ingredients = clarifaiface.filter(ingredient =>{
-            return ingredient.value > 0.99;
+      var ingredients = clarifaiface.filter(ingredient =>{
+            return ingredient.value > 0.95;
     })
     if (ingredients.length === 0){
       ingredients = clarifaiface.filter(ingredient => {
@@ -84,6 +84,9 @@ class App extends Component {
       return ingredient.name;
     })
     //const ingg = revingg.reverse();
+    if (ingg.length > 5) {
+      console.log(ingg[0]+ingg[1]);
+    }
     this.getRecipes(ingg);
     console.log(ingg);
   }
