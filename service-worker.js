@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/phototorecipeapp/precache-manifest.317976a49e24b0457d5758595b298250.js"
+  "/phototorecipeapp/precache-manifest.94a921b1d4e489685b6a75e73e9e4da9.js"
 );
 
 self.addEventListener('message', (event) => {
