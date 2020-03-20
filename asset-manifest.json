@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/phototorecipeapp/static/css/main.11ae8208.chunk.css",
-    "main.js": "/phototorecipeapp/static/js/main.bbaeb0d2.chunk.js",
-    "main.js.map": "/phototorecipeapp/static/js/main.bbaeb0d2.chunk.js.map",
+    "main.css": "/phototorecipeapp/static/css/main.19b3f850.chunk.css",
+    "main.js": "/phototorecipeapp/static/js/main.2d8172dd.chunk.js",
+    "main.js.map": "/phototorecipeapp/static/js/main.2d8172dd.chunk.js.map",
     "runtime-main.js": "/phototorecipeapp/static/js/runtime-main.c5f1dbbd.js",
     "runtime-main.js.map": "/phototorecipeapp/static/js/runtime-main.c5f1dbbd.js.map",
     "static/css/2.eb45ad44.chunk.css": "/phototorecipeapp/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.653993a6.chunk.js": "/phototorecipeapp/static/js/2.653993a6.chunk.js",
-    "static/js/2.653993a6.chunk.js.map": "/phototorecipeapp/static/js/2.653993a6.chunk.js.map",
+    "static/js/2.3370f9dd.chunk.js": "/phototorecipeapp/static/js/2.3370f9dd.chunk.js",
+    "static/js/2.3370f9dd.chunk.js.map": "/phototorecipeapp/static/js/2.3370f9dd.chunk.js.map",
     "index.html": "/phototorecipeapp/index.html",
-    "precache-manifest.c377d7b987d6d3f57c77766580c410c7.js": "/phototorecipeapp/precache-manifest.c377d7b987d6d3f57c77766580c410c7.js",
+    "precache-manifest.2e3970ca7e8a2e2e298c834df661a995.js": "/phototorecipeapp/precache-manifest.2e3970ca7e8a2e2e298c834df661a995.js",
     "service-worker.js": "/phototorecipeapp/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/phototorecipeapp/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.11ae8208.chunk.css.map": "/phototorecipeapp/static/css/main.11ae8208.chunk.css.map",
-    "static/js/2.653993a6.chunk.js.LICENSE.txt": "/phototorecipeapp/static/js/2.653993a6.chunk.js.LICENSE.txt"
+    "static/css/main.19b3f850.chunk.css.map": "/phototorecipeapp/static/css/main.19b3f850.chunk.css.map",
+    "static/js/2.3370f9dd.chunk.js.LICENSE.txt": "/phototorecipeapp/static/js/2.3370f9dd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c5f1dbbd.js",
     "static/css/2.eb45ad44.chunk.css",
-    "static/js/2.653993a6.chunk.js",
-    "static/css/main.11ae8208.chunk.css",
-    "static/js/main.bbaeb0d2.chunk.js"
+    "static/js/2.3370f9dd.chunk.js",
+    "static/css/main.19b3f850.chunk.css",
+    "static/js/main.2d8172dd.chunk.js"
   ]
 }
