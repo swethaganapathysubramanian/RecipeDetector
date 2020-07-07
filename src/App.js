@@ -129,6 +129,7 @@ class App extends Component {
       {/* <Navigation onRouteChange={this.onRouteChange} isSignedIn={isSignedIn} /> */}
       {route === 'home' ?
         <div><Logo />
+        <h1>Recipe Detector</h1>
          <ImageLinkForm onInputChange={this.onInputChange}
             onButtonSubmit={this.onSubmit} />
           <br></br>
