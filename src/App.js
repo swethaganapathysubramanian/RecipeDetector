@@ -40,7 +40,7 @@ const particlesbg = {
         "detect_on": "window",
         "events": {
           "onhover": {
-            "enable": true,
+            "enable": false,
             "mode": "repulse"
           }
         }
@@ -56,7 +56,7 @@ class App extends Component {
       input: '',
       imageUrl: '',
       box: {},
-      route: 'signin',
+      route: 'home',
       isSignedIn: false,
       recipes: [],
       recipe: {},
@@ -70,13 +70,13 @@ class App extends Component {
   }
 
   calculateIngredients = (data) =>{
-      const clarifaiface = data.outputs[0].data.concepts;
-      console.log(clarifaiface)   
-      var ingredients = clarifaiface.filter(ingredient =>{
-            return ingredient.value > 0.95;
+      const clarifaifood = data.outputs[0].data.concepts;
+      console.log(clarifaifood)   
+      var ingredients = clarifaifood.filter(ingredient =>{
+            return ingredient.value > 0.90;
     })
     if (ingredients.length === 0){
-      ingredients = clarifaiface.filter(ingredient => {
+      ingredients = clarifaifood.filter(ingredient => {
         return ingredient.value > 0.70;
       })
     }
@@ -86,7 +86,7 @@ class App extends Component {
     //const ingg = revingg.reverse();
     if (ingg.length > 3) {
       this.getRecipes(ingg[0]+" "+ingg[1]+" "+ingg[2]);
-    }else{
+    } else{
     this.getRecipes(ingg);
     console.log(ingg);
     }
@@ -94,7 +94,7 @@ class App extends Component {
 
   getRecipes = async (ingg) => {
     console.log(ingg)
-    const response = await fetch(`https://api.edamam.com/search?q=${ingg}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=9`);
+    const response = await fetch(`https://api.edamam.com/search?q=${ingg}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=10`);
     const data = await response.json();
     console.log(data.hits);
     this.setState({recipes: data.hits})
@@ -126,7 +126,7 @@ class App extends Component {
   return (
     <div className="App">
       <Particles className='particles' params={particlesbg} />
-      <Navigation onRouteChange={this.onRouteChange} isSignedIn={isSignedIn} />
+      {/* <Navigation onRouteChange={this.onRouteChange} isSignedIn={isSignedIn} /> */}
       {route === 'home' ?
         <div><Logo />
          <ImageLinkForm onInputChange={this.onInputChange}

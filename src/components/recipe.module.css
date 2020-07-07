@@ -14,27 +14,29 @@
     color: black;
     font-weight: 600;
 } */
-/* .box{
+.box{
     display: block;
     width: 80%;
-    padding: 1rem;
-    : center;
-} */
+    padding: 2rem;
+    height: 80%;
+}
 
 .recipe{
     position: relative;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgb(71,71,71);
-    margin: 20px 25% 20px 20%;
+    margin: 10px 20% 10px 20%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    opacity: 0.90;
+    opacity: 0.80;
     align-items: center;
-    min-width: 60%;
+    min-width: 90%;
     padding: 10px;
-    list-style: none;
+    list-style: square;
+    font-family:cursive;
+    font-weight:50;
 }
 .image{
     border-radius: 10%;
